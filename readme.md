@@ -6,10 +6,8 @@ A Node.js CLI tool that crawls a website, finds all pages within the same origin
 
 - Crawls websites to find all pages within the same origin
 - Respects maximum crawl depth
-- Runs axe-core accessibility tests on each page
+- Runs pa11y-crawler accessibility tests on each page
 - Generates individual HTML reports for each page
-- Creates a combined report summarizing all issues
-- Configurable concurrency, exclusion patterns, and more
 
 ## Installation
 
@@ -91,27 +89,9 @@ Increase concurrency for faster crawling (be careful with server load):
 node index.js https://example.com -c 5
 ```
 
-## Output
-
-The tool generates the following output structure:
-
-```
-accessibility-reports/
-├── index.html                  # Main report index
-├── combined/                   # Combined report
-│   └── index.html              # Combined issues from all pages
-└── pages/                      # Individual page reports
-    ├── home/                   # Homepage report
-    │   └── report.html
-    ├── about/                  # About page report
-    │   └── report.html
-    └── ...                     # Other page reports
-```
-
 ## Dependencies
 
-- axe-core - Accessibility testing engine
-- axe-html-reporter - HTML report generator
+- pa11y - Accessibility testing engine
 - puppeteer - Headless browser automation
 - commander - Command-line interface
 - chalk - Terminal styling

@@ -1,11 +1,17 @@
 {
-  "name": "site-accessibility-crawler",
+  "name": "pa11y-crawler",
   "version": "1.0.0",
   "description": "Crawl a website and generate accessibility reports using axe-core",
   "main": "index.js",
+  "author": "naeluh",
   "bin": {
     "pa11y-crawler": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naeluh/pa11y-site-accessibility-crawler.git"
+  },
+  "package-name": "pa11y-crawler",
   "scripts": {
     "start": "node index.js"
   },
@@ -14,7 +20,6 @@
     "crawler",
     "a11y"
   ],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",

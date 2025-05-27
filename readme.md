@@ -47,7 +47,7 @@ node index.js https://example.com
 Or if installed globally:
 
 ```bash
-axe-site-crawler https://example.com
+pa11y-crawler https://example.com
 ```
 
 ### Options

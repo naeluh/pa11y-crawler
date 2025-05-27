@@ -4,15 +4,13 @@
   "description": "Crawl a website and generate accessibility reports using axe-core",
   "main": "index.js",
   "bin": {
-    "axe-site-crawler": "./index.js"
+    "pa11y-crawler": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
     "accessibility",
-    "axe",
-    "axe-core",
     "crawler",
     "a11y"
   ],

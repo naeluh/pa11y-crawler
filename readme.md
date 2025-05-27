@@ -1,6 +1,6 @@
 # Site Accessibility Crawler
 
-A Node.js CLI tool that crawls a website, finds all pages within the same origin, and generates accessibility reports using axe-core and axe-html-reporter.
+A Node.js CLI tool that crawls a website, finds all pages within the same origin, and generates accessibility reports using pa11y.
 
 ## Features
 

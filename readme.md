@@ -1,4 +1,4 @@
-# Site Accessibility Crawler
+# pa11y-crawler
 
 A Node.js CLI tool that crawls a website, finds all pages within the same origin, and generates accessibility reports using pa11y.
 

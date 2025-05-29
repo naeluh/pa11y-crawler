@@ -1,6 +1,6 @@
 {
   "name": "pa11y-crawler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Crawl a website and generate accessibility reports using axe-core",
   "main": "index.js",
   "author": "naeluh",

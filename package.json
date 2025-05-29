@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naeluh/pa11y-site-accessibility-crawler.git"
+    "url": "git+https://github.com/naeluh/pa11y-crawler.git"
   },
   "package-name": "pa11y-crawler",
   "scripts": {
